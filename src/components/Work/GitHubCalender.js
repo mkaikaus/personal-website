@@ -19,8 +19,12 @@ function Calender() {
 
                 <GitHubCalendar
                     username="mkaikaus"
+                    hideColorLegend
+                    labels={{
+                      totalCount: '{{count}} contributions in the last half year',
+                    }}
                     blockSize={15}
-                    // blockMargin={5}
+                    blockMargin={5}
                     theme={colorTheme}
                     fontSize={16}
 
