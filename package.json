@@ -6,8 +6,10 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "github-calendar": "^2.3.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-github-calendar": "^4.4.1",
     "react-router-dom": "^6.26.2",
     "react-scripts": "5.0.1",
     "typewriter-effect": "^2.21.0",
@@ -39,5 +41,6 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.4.13"
-  }
+  },
+  "packageManager": "yarn@4.4.0+sha512.91d93b445d9284e7ed52931369bc89a663414e5582d00eea45c67ddc459a2582919eece27c412d6ffd1bd0793ff35399381cb229326b961798ce4f4cc60ddfdb"
 }

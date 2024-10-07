@@ -11,6 +11,7 @@ import Home from './components/Home/Home';
 import Navbar from './components/Navbar/Navbar';
 import About from './components/About/About';
 import Footer from './components/Footer/Footer';
+import Calender from './components/Work/GitHubCalender';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/project" element={<Calender />} />
 
           {/* <Route path="/project" element={<Projects />} />
           // <Route path="/about" element={<About />} />
