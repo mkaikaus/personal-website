@@ -9,7 +9,7 @@ function Calender() {
 
     return (
         <>
-            <h2 class="text-center p-10 text-3xl font-bold text-red-400">My GitHub Contributions</h2>
+            {/* <h2 class="text-center p-10 text-3xl font-bold text-red-400">My GitHub Contributions</h2>
             <div style={{
                 textAlign: 'center',
                 display: 'flex',
@@ -29,7 +29,7 @@ function Calender() {
                     fontSize={16}
 
                 />
-            </div>
+            </div> */}
         </>
     );
 }

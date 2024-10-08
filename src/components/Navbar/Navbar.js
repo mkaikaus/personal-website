@@ -39,7 +39,7 @@ const Navbar = () => {
               </a>
 
               {/* Social Media Icons */}
-              <div className="flex space-x-4">
+              {/* <div className="flex space-x-4">
                 <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-red-400 px-3">
                   <i className="fab fa-linkedin text-2xl"></i>
                 </a>
@@ -52,7 +52,7 @@ const Navbar = () => {
                 <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-red-400 px-3">
                   <i className="fab fa-github text-2xl"></i>
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
 

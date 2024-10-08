@@ -2,6 +2,7 @@ import React from "react";
 import Type from "./Type";
 import MyPic from "../../Assets/Maleeha.png"
 import About from "../About/About";
+import SkillsSection from "../Skill/Skill";
 
 function Home() {
   return (
@@ -39,7 +40,7 @@ function Home() {
       </div> */}
       <div className="flex flex-col items-center justify-center pt-8">
         <div className="flex flex-wrap items-center justify-between w-full max-w-screen-xl px-4">
-          <div className="w-full md:w-7/12">
+          <div className="w-full md:w-7/12 pb-12">
             <h1 className="text-4xl font-bold pb-4">
               Hi There!{" "}
               <span role="img" aria-labelledby="wave">
@@ -55,9 +56,16 @@ function Home() {
             <div className="pt-6 pb-6 text-left text-3xl font-bold">
               <Type />
             </div>
-            <p className="text-lg text-gray-400 pb-12">
-              A professional <span className="font-bold">Software Engineer</span> with a strong focus on <span className="font-bold">Frontend development</span>, specializing in the creation of intuitive and visually engaging user interfaces that enhance user experience and facilitate seamless interactions with backend systems. Committed to continuous learning and innovation in the field of frontend development.
+            <p className="text-lg text-gray-400 pb-6">
+              Crafting beautiful, responsive, and user-friendly web experiences
             </p>
+
+            <a
+              href="#contact"
+              className="bg-red-400 hover:bg-red-500 text-white font-bold py-3 px-6 rounded-full transition-colors duration-300 inline-block"
+            >
+              Get in Touch
+            </a>
             
           </div>
 
@@ -72,7 +80,8 @@ function Home() {
           </div>
         </div>
       </div>
-      {/* <About /> */}
+      <About />
+      <SkillsSection />
     </section>
   );
 }
